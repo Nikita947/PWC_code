@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  padding: 30px;
+}
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 484px;
+  background: #F0F0F0;
+  border-radius: 12px;
+}
+.forms{
+  margin: 53px 80px;
+}
+.heading{
+  margin-bottom: 30px;
+}
+
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  flex-flow: row;
+}
+.btn-text{
+  color:#07B7EA
+}
+.btn-light{
+  background-color: white;
+}
+
+.login-link{
+  cursor: pointer;
+  color: #07B7EA;
+  font-weight: bold;
+}
+
+@media  screen and (max-width:600px) {
+  .forms{
+    margin: 53px 40px;
+  }
+}
